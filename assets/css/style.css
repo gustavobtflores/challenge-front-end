@@ -1,0 +1,48 @@
+body{
+    background: #051D3B;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+}
+.cabecalhoPrincipal .container{
+    width: 95%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-pesquisa{
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.16);
+    border: none;
+    width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+    caret-color: white;
+    color: white;
+    line-height: 24px;
+}
+
+.input-pesquisa:focus{
+    outline: none;
+}
+
+.input-pesquisa:hover, .input-pesquisa:focus{
+    background: rgba(255, 255, 255, 0.24);
+}
+.cabecalhoPrincipal-user{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 106px;
+}
+
+.cabecalhoPrincipal-user-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
