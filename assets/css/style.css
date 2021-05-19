@@ -1,15 +1,17 @@
 body{
     background: #051D3B;
     font-family: 'Inter', sans-serif;
+    color: white;
 }
 
 .container{
     max-width: 1440px;
+    margin: 0 auto;
 }
 .cabecalhoPrincipal .container{
     width: 95%;
     margin: 2em auto;
-    display: flex;
+    display: flex;    
     justify-content: space-between;
 }
 
