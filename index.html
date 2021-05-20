@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/mobile.css">
         <title>Alura DEV</title>
     </head>
     <body>
@@ -23,6 +24,11 @@
                 <div class="cabecalhoPrincipal-user">
                     <img src="./assets/img/foto.jpg" alt="Foto de perfil" class="cabecalhoPrincipal-user-img">
                     <p>Gustavo</p>
+                </div>
+
+                <div class="menu-mobile">
+                    <img src="/assets/img/lupa.svg">
+                    <img src="/assets/img/hamburguer.svg">
                 </div>
 
             </div>
@@ -58,7 +64,7 @@
                         </div>
                         
                     </div>
-                    <button>Visualizar com Highlight</button>
+                    <button class="highlight-button">Visualizar com Highlight</button>
                 </div>
 
                 <div class="sidebar-right">
@@ -70,7 +76,7 @@
 
                         <label for="projectname"></label>
                         <input type="text" placeholder="Nome do seu projeto" class="input-default" >
-                        <input type="text" placeholder="Descrição do seu projeto" class="input-default">
+                        <input type="text" placeholder="Descrição do seu projeto" class="input-default" style="height: 80px;">
                     </div>
 
                     <div class="sidebar-right-personalizacao">
@@ -85,7 +91,7 @@
                         </select>
 
                         
-                        <input type="color" class="input-color">
+                        <input type="color" class="input-color" value="#6bd1ff">
 
                         <button class="personalizacao-button">Salvar projeto</button>
 

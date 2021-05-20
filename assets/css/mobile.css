@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px){
+    body{
+        padding: 1rem;
+    }
+    
+    .input-pesquisa{
+        display: none;
+    }
+
+    .cabecalhoPrincipal-user{
+        display: none;
+    }
+
+    .conteudoPrincipal-nav{
+        display: none;
+    }
+
+    .conteudoPrincipal .container{
+        flex-direction: column;
+    }
+
+    .editor-codigo-button-box{
+        width: 100%;
+    }
+
+    .sidebar-right{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .menu-mobile{
+        display: flex;
+        width: 80px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+}
