@@ -1,104 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/mobile.css">
-        <title>Alura DEV</title>
-    </head>
-    <body>
-        <header class="cabecalhoPrincipal">
-            <div class="container">
-                
-                <div class="cabecalhoPrincipal-logo">
-                    <img class="logo" src="./assets/img/logo.svg" alt="Logo da Alura DEV">
-                </div>
-                
-                    <input type="text" placeholder="Busque por algo" class="input-pesquisa input-default">
-                
-                <div class="cabecalhoPrincipal-user">
-                    <img src="./assets/img/foto.jpg" alt="Foto de perfil" class="cabecalhoPrincipal-user-img">
-                    <p>Gustavo</p>
-                </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="/assets/css/style.css" />
+		<link rel="stylesheet" href="/assets/css/mobile.css" />
+		<title>Alura DEV</title>
+	</head>
+	<body>
+		<header class="cabecalhoPrincipal">
+			<div class="container">
+				<div class="cabecalhoPrincipal-logo">
+					<img class="logo" src="./assets/img/logo.svg" alt="Logo da Alura DEV" />
+				</div>
 
-                <div class="menu-mobile">
-                    <img src="/assets/img/lupa.svg">
-                    <img src="/assets/img/hamburguer.svg">
-                </div>
+				<input type="text" placeholder="Busque por algo" class="input-pesquisa input-default" />
 
-            </div>
-        </header>
+				<div class="cabecalhoPrincipal-user">
+					<img src="./assets/img/foto.jpg" alt="Foto de perfil" class="cabecalhoPrincipal-user-img" />
+					<p>Gustavo</p>
+				</div>
 
-        <main class="conteudoPrincipal">
-            
-            <div class="container">
-            
-                <nav class="conteudoPrincipal-nav">
-                    <span class="sidebar-title">
-                        Menu
-                    </span>
+				<div class="menu-mobile">
+					<img src="/assets/img/lupa.svg" />
+					<img src="/assets/img/hamburguer.svg" />
+				</div>
+			</div>
+		</header>
 
-                    <a href="#" class="conteudoPrincipal-nav-link">
-                        <img src="./assets/img/editor.svg" alt="Ícone de editor de código">
-                        <p>Editor de código</p>
-                    </a>
+		<main class="conteudoPrincipal">
+			<div class="container">
+				<nav class="conteudoPrincipal-nav">
+					<span class="sidebar-title"> Menu </span>
 
-                    <a href="#" class="conteudoPrincipal-nav-link">
-                        <img src="./assets/img/comunidade.svg" alt="Ícone da comunidade">
-                        <p>Comunidade</p>
-                    </a>
-                </nav>
+					<a href="#" class="conteudoPrincipal-nav-link">
+						<img src="./assets/img/editor.svg" alt="Ícone de editor de código" />
+						<p>Editor de código</p>
+					</a>
 
-                <div class="editor-codigo-button-box">
+					<a href="#" class="conteudoPrincipal-nav-link">
+						<img src="./assets/img/comunidade.svg" alt="Ícone da comunidade" />
+						<p>Comunidade</p>
+					</a>
+				</nav>
 
-                    <div class="conteudoPrincipal-editor-codigo">
-                        
-                        <div class="editor-codigo-box">
-                            <img src="/assets/img/mac_buttons.svg" class="mac-buttons">
-                            <textarea class="editor-codigo"></textarea>
-                        </div>
-                        
-                    </div>
-                    <button class="highlight-button">Visualizar com Highlight</button>
-                </div>
+				<div class="editor-codigo-button-box">
+					<div class="conteudoPrincipal-editor-codigo">
+						<div class="editor-codigo-box">
+							<img src="/assets/img/mac_buttons.svg" class="mac-buttons" />
+							<textarea class="editor-codigo"></textarea>
+						</div>
+					</div>
+					<button class="highlight-button">Visualizar com Highlight</button>
+				</div>
 
-                <div class="sidebar-right">
-                    <div class="sidebar-right-projeto">
-                        
-                        <span class="sidebar-title">
-                            Seu projeto
-                        </span>
+				<div class="sidebar-right">
+					<div class="sidebar-right-projeto">
+						<span class="sidebar-title"> Seu projeto </span>
 
-                        <label for="projectname"></label>
-                        <input type="text" placeholder="Nome do seu projeto" class="input-default" >
-                        <input type="text" placeholder="Descrição do seu projeto" class="input-default" style="height: 80px;">
-                    </div>
+						<label for="projectname"></label>
+						<input type="text" placeholder="Nome do seu projeto" class="input-default" />
+						<textarea type="text" placeholder="Descrição do seu projeto" class="input-default" style="resize: none"></textarea>
+					</div>
 
-                    <div class="sidebar-right-personalizacao">
-                        <span class="sidebar-title">
-                            Personalização
-                        </span>
-                        
-                        <select name="languages" id="languages" class="select-languages">
-                            <option value="0" id="language">JavaScript</option>
-                            <option value="1" id="language">Python</option>
-                            <option value="2" id="language">C++</option>
-                        </select>
+					<div class="sidebar-right-personalizacao">
+						<span class="sidebar-title"> Personalização </span>
 
-                        
-                        <input type="color" class="input-color" value="#6bd1ff">
+						<select name="languages" id="languages" class="select-languages">
+							<option value="0" id="language">JavaScript</option>
+							<option value="1" id="language">Python</option>
+							<option value="2" id="language">C++</option>
+						</select>
 
-                        <button class="personalizacao-button">Salvar projeto</button>
+						<input type="color" class="input-color" value="#6bd1ff" onchange="mudaCor()" />
 
-                    </div>
-                </div>
-            </div>
-
-        </main>
-    </body>
+						<button class="personalizacao-button">Salvar projeto</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="/assets/js/main.js"></script>
+	</body>
 </html>
